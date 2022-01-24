@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/pkg/util/cryptkey"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/pkg/util/cryptkey"
 )
 
 const (

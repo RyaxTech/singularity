@@ -8,8 +8,8 @@ package sources
 import (
 	"context"
 
-	"github.com/hpcng/singularity/internal/app/singularity"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/app/singularity"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	scskeyclient "github.com/sylabs/scs-key-client/client"
 )
 

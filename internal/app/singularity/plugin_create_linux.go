@@ -6,8 +6,8 @@
 package singularity
 
 import (
-	"github.com/hpcng/singularity/internal/pkg/plugin"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/plugin"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // CreatePlugin create the plugin directory skeleton.

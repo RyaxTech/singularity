@@ -16,13 +16,13 @@ import (
 	"strconv"
 	"syscall"
 
+	"github.com/RyaxTech/singularity/internal/pkg/image/packer"
+	"github.com/RyaxTech/singularity/internal/pkg/util/crypt"
+	"github.com/RyaxTech/singularity/internal/pkg/util/machine"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/cryptkey"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/internal/pkg/image/packer"
-	"github.com/hpcng/singularity/internal/pkg/util/crypt"
-	"github.com/hpcng/singularity/internal/pkg/util/machine"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/cryptkey"
 )
 
 // SIFAssembler doesn't store anything.

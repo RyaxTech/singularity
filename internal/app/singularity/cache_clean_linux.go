@@ -9,9 +9,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/slice"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/slice"
 )
 
 var errInvalidCacheHandle = errors.New("invalid cache handle")

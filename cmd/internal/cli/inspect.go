@@ -19,13 +19,13 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/RyaxTech/singularity/docs"
+	"github.com/RyaxTech/singularity/internal/pkg/util/env"
+	"github.com/RyaxTech/singularity/pkg/cmdline"
+	"github.com/RyaxTech/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/pkg/inspect"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/docs"
-	"github.com/hpcng/singularity/internal/pkg/util/env"
-	"github.com/hpcng/singularity/pkg/cmdline"
-	"github.com/hpcng/singularity/pkg/image"
-	"github.com/hpcng/singularity/pkg/inspect"
-	"github.com/hpcng/singularity/pkg/sylog"
 	"github.com/spf13/cobra"
 )
 

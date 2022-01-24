@@ -6,9 +6,9 @@
 package singularity
 
 import (
+	"github.com/RyaxTech/singularity/pkg/sypgp"
 	"github.com/hpcng/sif/v2/pkg/integrity"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/pkg/sypgp"
 )
 
 type signer struct {

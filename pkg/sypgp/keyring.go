@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/sylabs/scs-key-client/client"
 )
 

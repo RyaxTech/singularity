@@ -19,29 +19,29 @@ import (
 	"syscall"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/cgroups"
-	fakerootutil "github.com/hpcng/singularity/internal/pkg/fakeroot"
-	"github.com/hpcng/singularity/internal/pkg/instance"
-	"github.com/hpcng/singularity/internal/pkg/plugin"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/starter"
-	"github.com/hpcng/singularity/internal/pkg/security"
-	"github.com/hpcng/singularity/internal/pkg/security/seccomp"
-	"github.com/hpcng/singularity/internal/pkg/syecl"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/internal/pkg/util/fs/overlay"
-	"github.com/hpcng/singularity/internal/pkg/util/mainthread"
-	"github.com/hpcng/singularity/internal/pkg/util/user"
-	"github.com/hpcng/singularity/pkg/image"
-	fakerootcallback "github.com/hpcng/singularity/pkg/plugin/callback/runtime/fakeroot"
-	"github.com/hpcng/singularity/pkg/runtime/engine/config"
-	singularityConfig "github.com/hpcng/singularity/pkg/runtime/engine/singularity/config"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/sypgp"
-	"github.com/hpcng/singularity/pkg/util/capabilities"
-	"github.com/hpcng/singularity/pkg/util/fs/proc"
-	"github.com/hpcng/singularity/pkg/util/namespaces"
-	"github.com/hpcng/singularity/pkg/util/singularityconf"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/cgroups"
+	fakerootutil "github.com/RyaxTech/singularity/internal/pkg/fakeroot"
+	"github.com/RyaxTech/singularity/internal/pkg/instance"
+	"github.com/RyaxTech/singularity/internal/pkg/plugin"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/starter"
+	"github.com/RyaxTech/singularity/internal/pkg/security"
+	"github.com/RyaxTech/singularity/internal/pkg/security/seccomp"
+	"github.com/RyaxTech/singularity/internal/pkg/syecl"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs/overlay"
+	"github.com/RyaxTech/singularity/internal/pkg/util/mainthread"
+	"github.com/RyaxTech/singularity/internal/pkg/util/user"
+	"github.com/RyaxTech/singularity/pkg/image"
+	fakerootcallback "github.com/RyaxTech/singularity/pkg/plugin/callback/runtime/fakeroot"
+	"github.com/RyaxTech/singularity/pkg/runtime/engine/config"
+	singularityConfig "github.com/RyaxTech/singularity/pkg/runtime/engine/singularity/config"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/sypgp"
+	"github.com/RyaxTech/singularity/pkg/util/capabilities"
+	"github.com/RyaxTech/singularity/pkg/util/fs/proc"
+	"github.com/RyaxTech/singularity/pkg/util/namespaces"
+	"github.com/RyaxTech/singularity/pkg/util/singularityconf"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
 )
@@ -1033,7 +1033,7 @@ func (e *EngineOperations) setSessionLayer(img *image.Image) error {
 	}
 
 	// Check for implicit user namespace, e.g when we run %test in a fakeroot build
-	// https://github.com/hpcng/singularity/issues/5315
+	// https://github.com/RyaxTech/singularity/issues/5315
 	userNS, _ := namespaces.IsInsideUserNamespace(os.Getpid())
 
 	// NEED FIX: on ubuntu until 4.15 kernel it was possible to mount overlay

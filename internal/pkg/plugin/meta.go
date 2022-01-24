@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/plugin/callback"
-	"github.com/hpcng/singularity/pkg/image"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/plugin/callback"
+	"github.com/RyaxTech/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 var (

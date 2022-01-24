@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/internal/pkg/test/tool/require"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/require"
 )
 
 func TestCgroupsV2(t *testing.T) {

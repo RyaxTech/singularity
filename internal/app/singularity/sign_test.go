@@ -15,8 +15,8 @@ import (
 	"testing"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
+	"github.com/RyaxTech/singularity/pkg/sypgp"
 	"github.com/hpcng/sif/v2/pkg/integrity"
-	"github.com/hpcng/singularity/pkg/sypgp"
 )
 
 // tempFileFrom copies the file at path to a temporary file, and returns a reference to it.

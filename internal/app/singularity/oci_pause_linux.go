@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hpcng/singularity/pkg/ociruntime"
-	"github.com/hpcng/singularity/pkg/util/unix"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/pkg/util/unix"
 )
 
 // OciPauseResume pauses/resumes processes in a container

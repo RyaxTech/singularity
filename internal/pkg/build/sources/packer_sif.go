@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hpcng/singularity/internal/pkg/image/unpacker"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/image"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/image/unpacker"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // SIFPacker holds the locations of where to pack from and to.

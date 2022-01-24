@@ -22,9 +22,9 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
 	"github.com/containernetworking/cni/libcni"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/test"
 )
 
 var confFiles = []struct {

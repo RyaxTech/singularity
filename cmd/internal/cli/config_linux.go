@@ -6,8 +6,8 @@
 package cli
 
 import (
-	"github.com/hpcng/singularity/docs"
-	"github.com/hpcng/singularity/pkg/cmdline"
+	"github.com/RyaxTech/singularity/docs"
+	"github.com/RyaxTech/singularity/pkg/cmdline"
 	"github.com/spf13/cobra"
 )
 

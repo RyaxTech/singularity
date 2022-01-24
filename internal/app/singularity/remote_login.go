@@ -12,11 +12,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/hpcng/singularity/internal/pkg/remote"
-	"github.com/hpcng/singularity/internal/pkg/remote/endpoint"
-	"github.com/hpcng/singularity/internal/pkg/util/auth"
-	"github.com/hpcng/singularity/internal/pkg/util/interactive"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/remote"
+	"github.com/RyaxTech/singularity/internal/pkg/remote/endpoint"
+	"github.com/RyaxTech/singularity/internal/pkg/util/auth"
+	"github.com/RyaxTech/singularity/internal/pkg/util/interactive"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 type LoginArgs struct {

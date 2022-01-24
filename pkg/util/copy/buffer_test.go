@@ -8,7 +8,7 @@ package copy
 import (
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
 )
 
 func TestNewTerminalBuffer(t *testing.T) {

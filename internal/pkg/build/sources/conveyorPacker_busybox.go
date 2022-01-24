@@ -15,8 +15,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // BusyBoxConveyor only needs to hold the conveyor to have the needed data to pack

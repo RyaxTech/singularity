@@ -8,10 +8,10 @@ package cli
 import (
 	"os"
 
-	"github.com/hpcng/singularity/docs"
-	"github.com/hpcng/singularity/internal/app/singularity"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/docs"
+	"github.com/RyaxTech/singularity/internal/app/singularity"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/spf13/cobra"
 )
 

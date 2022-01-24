@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"golang.org/x/term"
 )
 

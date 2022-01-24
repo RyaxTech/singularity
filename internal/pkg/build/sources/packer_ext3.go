@@ -12,11 +12,11 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/image"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/archive"
-	"github.com/hpcng/singularity/pkg/util/loop"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/archive"
+	"github.com/RyaxTech/singularity/pkg/util/loop"
 )
 
 // Ext3Packer holds the locations of where to back from and to, as well as image offset info

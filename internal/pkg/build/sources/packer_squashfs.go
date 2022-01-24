@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hpcng/singularity/internal/pkg/image/unpacker"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/internal/pkg/image/unpacker"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/image"
 )
 
 // SquashfsPacker holds the locations of where to pack from and to, as well as image offset info

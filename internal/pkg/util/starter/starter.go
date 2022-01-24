@@ -13,10 +13,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/pkg/runtime/engine/config"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/rlimit"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/pkg/runtime/engine/config"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/rlimit"
 	"golang.org/x/sys/unix"
 )
 

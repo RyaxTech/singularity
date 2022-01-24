@@ -11,14 +11,14 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/RyaxTech/singularity/internal/pkg/build"
+	"github.com/RyaxTech/singularity/internal/pkg/build/oci"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/syfs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	useragent "github.com/RyaxTech/singularity/pkg/util/user-agent"
 	ocitypes "github.com/containers/image/v5/types"
-	"github.com/hpcng/singularity/internal/pkg/build"
-	"github.com/hpcng/singularity/internal/pkg/build/oci"
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/syfs"
-	"github.com/hpcng/singularity/pkg/sylog"
-	useragent "github.com/hpcng/singularity/pkg/util/user-agent"
 )
 
 // pull will build a SIF image into the cache if directTo="", or a specific file if directTo is set.
@@ -27,7 +27,7 @@ func pull(ctx context.Context, imgCache *cache.Handle, directTo, pullFrom, tmpDi
 	// configuration from /etc/containers/registries.conf because DockerInsecureSkipTLSVerify
 	// can have three possible values true/false and undefined, so we left it as undefined instead
 	// of forcing it to false in order to delegate decision to /etc/containers/registries.conf:
-	// https://github.com/hpcng/singularity/issues/5172
+	// https://github.com/RyaxTech/singularity/issues/5172
 	sysCtx := &ocitypes.SystemContext{
 		OCIInsecureSkipTLSVerify: noHTTPS,
 		DockerAuthConfig:         ociAuth,

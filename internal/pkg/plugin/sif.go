@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/RyaxTech/singularity/pkg/image"
+	pluginapi "github.com/RyaxTech/singularity/pkg/plugin"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/pkg/image"
-	pluginapi "github.com/hpcng/singularity/pkg/plugin"
 )
 
 const (

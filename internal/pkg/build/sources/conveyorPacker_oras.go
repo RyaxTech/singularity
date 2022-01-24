@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hpcng/singularity/internal/pkg/client/oras"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/client/oras"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // OrasConveyorPacker only needs to hold a packer to pack the image it pulls

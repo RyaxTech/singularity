@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/build/assemblers"
-	"github.com/hpcng/singularity/internal/pkg/build/sources"
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	testCache "github.com/hpcng/singularity/internal/pkg/test/tool/cache"
-	"github.com/hpcng/singularity/pkg/build/types"
-	useragent "github.com/hpcng/singularity/pkg/util/user-agent"
+	"github.com/RyaxTech/singularity/internal/pkg/build/assemblers"
+	"github.com/RyaxTech/singularity/internal/pkg/build/sources"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	testCache "github.com/RyaxTech/singularity/internal/pkg/test/tool/cache"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	useragent "github.com/RyaxTech/singularity/pkg/util/user-agent"
 )
 
 const (

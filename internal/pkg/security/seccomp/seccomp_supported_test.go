@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci/generate"
-	"github.com/hpcng/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci/generate"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

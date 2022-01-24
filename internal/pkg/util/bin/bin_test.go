@@ -12,9 +12,9 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/util/env"
-	"github.com/hpcng/singularity/pkg/util/singularityconf"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/util/env"
+	"github.com/RyaxTech/singularity/pkg/util/singularityconf"
 )
 
 func TestFindOnPath(t *testing.T) {

@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/pkg/sypgp"
 	"github.com/hpcng/sif/v2/pkg/integrity"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/pkg/sypgp"
 	"github.com/sylabs/scs-key-client/client"
 )
 

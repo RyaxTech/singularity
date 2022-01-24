@@ -14,8 +14,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/starter"
-	"github.com/hpcng/singularity/pkg/runtime/engine/config"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/starter"
+	"github.com/RyaxTech/singularity/pkg/runtime/engine/config"
 )
 
 // Engine is the combination of an Operations and a config.Common. The singularity

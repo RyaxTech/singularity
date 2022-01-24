@@ -13,12 +13,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/hpcng/singularity/internal/pkg/client"
+	"github.com/RyaxTech/singularity/internal/pkg/client"
 
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
-	useragent "github.com/hpcng/singularity/pkg/util/user-agent"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	useragent "github.com/RyaxTech/singularity/pkg/util/user-agent"
 	jsonresp "github.com/sylabs/json-resp"
 )
 

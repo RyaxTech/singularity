@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	shub "github.com/hpcng/singularity/internal/pkg/client/shub"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
+	shub "github.com/RyaxTech/singularity/internal/pkg/client/shub"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // ShubConveyorPacker only needs to hold the conveyor to have the needed data to pack.

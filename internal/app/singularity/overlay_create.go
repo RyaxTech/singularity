@@ -15,9 +15,9 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/pkg/image"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/pkg/image"
 	"golang.org/x/sys/unix"
 )
 

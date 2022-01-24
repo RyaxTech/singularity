@@ -16,11 +16,11 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/RyaxTech/singularity/e2e/internal/e2e"
+	"github.com/RyaxTech/singularity/e2e/internal/testhelper"
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/require"
+	"github.com/RyaxTech/singularity/pkg/util/fs/proc"
 	"github.com/google/uuid"
-	"github.com/hpcng/singularity/e2e/internal/e2e"
-	"github.com/hpcng/singularity/e2e/internal/testhelper"
-	"github.com/hpcng/singularity/internal/pkg/test/tool/require"
-	"github.com/hpcng/singularity/pkg/util/fs/proc"
 	"github.com/pkg/errors"
 )
 
@@ -389,6 +389,6 @@ func E2ETests(env e2e.TestEnv) testhelper.Tests {
 				})
 			}
 		},
-		"issue 5033": c.issue5033, // https://github.com/hpcng/singularity/issues/4836
+		"issue 5033": c.issue5033, // https://github.com/RyaxTech/singularity/issues/4836
 	}
 }

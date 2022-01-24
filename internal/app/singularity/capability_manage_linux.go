@@ -11,9 +11,9 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/util/user"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/capabilities"
+	"github.com/RyaxTech/singularity/internal/pkg/util/user"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/capabilities"
 )
 
 // CapManageConfig specifies what capability set to edit in the capability file

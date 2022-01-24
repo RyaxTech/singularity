@@ -10,5 +10,5 @@ package engines
 
 import (
 	// register the oci runtime engine
-	_ "github.com/hpcng/singularity/internal/pkg/runtime/engine/oci"
+	_ "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/oci"
 )

@@ -9,12 +9,12 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 
-	ociargs "github.com/hpcng/singularity/internal/pkg/runtime/engine/oci/rpc"
-	args "github.com/hpcng/singularity/internal/pkg/runtime/engine/singularity/rpc"
-	server "github.com/hpcng/singularity/internal/pkg/runtime/engine/singularity/rpc/server"
-	"github.com/hpcng/singularity/internal/pkg/util/mainthread"
+	ociargs "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/oci/rpc"
+	args "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/singularity/rpc"
+	server "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/singularity/rpc/server"
+	"github.com/RyaxTech/singularity/internal/pkg/util/mainthread"
 )
 
 // Methods is a receiver type.

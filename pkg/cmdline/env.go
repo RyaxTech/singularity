@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/spf13/pflag"
 )
 

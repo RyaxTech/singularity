@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/build/sources"
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/internal/pkg/build/sources"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/pkg/build/types"
 )
 
 func TestDebootstrapConveyor(t *testing.T) {

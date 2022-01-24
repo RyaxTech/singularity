@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
-	useragent "github.com/hpcng/singularity/pkg/util/user-agent"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	useragent "github.com/RyaxTech/singularity/pkg/util/user-agent"
 )
 
 var validShubURIs = []string{

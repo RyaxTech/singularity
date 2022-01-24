@@ -20,7 +20,7 @@ import (
 	"time"
 
 	expect "github.com/Netflix/go-expect"
-	"github.com/hpcng/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
 	"github.com/pkg/errors"
 )
 

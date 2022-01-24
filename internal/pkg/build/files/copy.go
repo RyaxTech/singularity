@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/util/archive"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/util/archive"
 )
 
 // makeParentDir ensures existence of the expected destination directory for the cp command

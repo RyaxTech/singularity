@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/remote/endpoint"
-	useragent "github.com/hpcng/singularity/pkg/util/user-agent"
+	"github.com/RyaxTech/singularity/internal/pkg/remote/endpoint"
+	useragent "github.com/RyaxTech/singularity/pkg/util/user-agent"
 	yaml "gopkg.in/yaml.v2"
 )
 

@@ -12,10 +12,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hpcng/singularity/internal/pkg/instance"
-	"github.com/hpcng/singularity/pkg/ociruntime"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/unix"
+	"github.com/RyaxTech/singularity/internal/pkg/instance"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/unix"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

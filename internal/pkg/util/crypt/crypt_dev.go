@@ -16,12 +16,12 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/fs/lock"
+	"github.com/RyaxTech/singularity/pkg/util/loop"
 	"github.com/google/uuid"
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/fs/lock"
-	"github.com/hpcng/singularity/pkg/util/loop"
 )
 
 // Device describes a crypt device

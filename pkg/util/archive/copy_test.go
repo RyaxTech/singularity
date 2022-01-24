@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 )
 
 func TestCopyWithTar(t *testing.T) {

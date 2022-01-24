@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/util/user"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/util/user"
 	"github.com/pkg/errors"
 )
 

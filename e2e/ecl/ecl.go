@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/e2e/internal/e2e"
-	"github.com/hpcng/singularity/e2e/internal/testhelper"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/syecl"
+	"github.com/RyaxTech/singularity/e2e/internal/e2e"
+	"github.com/RyaxTech/singularity/e2e/internal/testhelper"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/syecl"
 )
 
 // KeyMap contains test keys.

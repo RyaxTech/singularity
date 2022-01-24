@@ -16,11 +16,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine"
-	"github.com/hpcng/singularity/internal/pkg/util/crypt"
-	"github.com/hpcng/singularity/internal/pkg/util/mainthread"
-	signalutil "github.com/hpcng/singularity/internal/pkg/util/signal"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine"
+	"github.com/RyaxTech/singularity/internal/pkg/util/crypt"
+	"github.com/RyaxTech/singularity/internal/pkg/util/mainthread"
+	signalutil "github.com/RyaxTech/singularity/internal/pkg/util/signal"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 func createContainer(ctx context.Context, rpcSocket int, containerPid int, e *engine.Engine, fatalChan chan error) {

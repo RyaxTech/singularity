@@ -13,9 +13,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs/layout"
-	"github.com/hpcng/singularity/internal/pkg/util/fs/mount"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs/layout"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs/mount"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 const underlayDir = "/underlay"

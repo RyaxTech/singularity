@@ -5,7 +5,7 @@
 
 package singularity
 
-import "github.com/hpcng/singularity/internal/pkg/plugin"
+import "github.com/RyaxTech/singularity/internal/pkg/plugin"
 
 // DisablePlugin disables the named plugin.
 func DisablePlugin(name, libexecdir string) error {

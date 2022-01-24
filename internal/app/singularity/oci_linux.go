@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hpcng/singularity/internal/pkg/instance"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/oci"
-	"github.com/hpcng/singularity/pkg/ociruntime"
-	"github.com/hpcng/singularity/pkg/runtime/engine/config"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/instance"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/oci"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/pkg/runtime/engine/config"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // OciArgs contains CLI arguments

@@ -1,4 +1,4 @@
-module github.com/hpcng/singularity
+module github.com/RyaxTech/singularity
 
 go 1.16
 

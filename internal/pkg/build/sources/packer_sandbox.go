@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/archive"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/archive"
 )
 
 // SandboxPacker holds the locations of where to pack from and to

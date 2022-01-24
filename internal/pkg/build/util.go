@@ -13,13 +13,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/util/env"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	buildtypes "github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/slice"
 	ocitypes "github.com/containers/image/v5/types"
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/internal/pkg/util/env"
-	"github.com/hpcng/singularity/pkg/build/types"
-	buildtypes "github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/slice"
 	"golang.org/x/sys/unix"
 )
 

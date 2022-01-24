@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
 	keyclient "github.com/sylabs/scs-key-client/client"
 	"github.com/sylabs/scs-library-client/client"
 	"github.com/vbauerster/mpb/v4"

@@ -9,9 +9,9 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine"
-	starterConfig "github.com/hpcng/singularity/internal/pkg/runtime/engine/config/starter"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine"
+	starterConfig "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/starter"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // StageOne validates and prepares container configuration which is

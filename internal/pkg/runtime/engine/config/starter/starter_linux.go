@@ -22,11 +22,11 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/internal/pkg/util/env"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/capabilities"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/internal/pkg/util/env"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/capabilities"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

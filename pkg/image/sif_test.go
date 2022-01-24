@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 	"github.com/hpcng/sif/v2/pkg/sif"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
 )
 
 const testSquash = "./testdata/squashfs.v4"

@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // Configuration files/directories.

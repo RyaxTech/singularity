@@ -10,9 +10,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/internal/pkg/util/user"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/util/user"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // Group creates a group template based on content of file provided in path,

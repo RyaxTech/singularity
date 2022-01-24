@@ -12,9 +12,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hpcng/singularity/pkg/util/capabilities"
+	"github.com/RyaxTech/singularity/pkg/util/capabilities"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

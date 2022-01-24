@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	pluginapi "github.com/hpcng/singularity/pkg/plugin"
+	pluginapi "github.com/RyaxTech/singularity/pkg/plugin"
 )
 
 // pluginCallback contains hook callbacks function registered

@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hpcng/singularity/pkg/util/unix"
+	"github.com/RyaxTech/singularity/pkg/util/unix"
 )
 
 // OciState query container state

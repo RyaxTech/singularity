@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/RyaxTech/singularity/e2e/internal/e2e"
+	"github.com/RyaxTech/singularity/e2e/internal/testhelper"
 	"github.com/blang/semver/v4"
-	"github.com/hpcng/singularity/e2e/internal/e2e"
-	"github.com/hpcng/singularity/e2e/internal/testhelper"
 	"github.com/pkg/errors"
 )
 

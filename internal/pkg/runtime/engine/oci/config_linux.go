@@ -8,9 +8,9 @@ package oci
 import (
 	"sync"
 
-	"github.com/hpcng/singularity/internal/pkg/cgroups"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci"
-	"github.com/hpcng/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/internal/pkg/cgroups"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
 )
 
 // Name of the engine.

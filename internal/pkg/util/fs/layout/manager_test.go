@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 )
 
 func TestLayout(t *testing.T) {

@@ -13,9 +13,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hpcng/singularity/pkg/image"
-	pluginapi "github.com/hpcng/singularity/pkg/plugin"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/image"
+	pluginapi "github.com/RyaxTech/singularity/pkg/plugin"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // Install installs a plugin from a SIF image under rootDir. It will:

@@ -14,7 +14,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 )
 
 // BuildOpts define image build options

@@ -14,15 +14,15 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/instance"
-	fakerootConfig "github.com/hpcng/singularity/internal/pkg/runtime/engine/fakeroot/config"
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/internal/pkg/util/crypt"
-	"github.com/hpcng/singularity/internal/pkg/util/priv"
-	"github.com/hpcng/singularity/internal/pkg/util/starter"
-	"github.com/hpcng/singularity/pkg/runtime/engine/config"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/capabilities"
+	"github.com/RyaxTech/singularity/internal/pkg/instance"
+	fakerootConfig "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/fakeroot/config"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/internal/pkg/util/crypt"
+	"github.com/RyaxTech/singularity/internal/pkg/util/priv"
+	"github.com/RyaxTech/singularity/internal/pkg/util/starter"
+	"github.com/RyaxTech/singularity/pkg/runtime/engine/config"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/capabilities"
 )
 
 // CleanupContainer is called from master after the MonitorContainer returns.

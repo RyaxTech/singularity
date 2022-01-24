@@ -19,8 +19,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // ErrUnknownArch is the error returned for unknown architecture.

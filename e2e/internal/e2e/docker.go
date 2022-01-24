@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hpcng/singularity/internal/pkg/test/tool/require"
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/require"
 	"github.com/pkg/errors"
 )
 

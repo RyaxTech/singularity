@@ -14,8 +14,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci/generate"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci/generate"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	cseccomp "github.com/seccomp/containers-golang"
 	lseccomp "github.com/seccomp/libseccomp-golang"

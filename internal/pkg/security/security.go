@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/security/apparmor"
-	"github.com/hpcng/singularity/internal/pkg/security/seccomp"
-	"github.com/hpcng/singularity/internal/pkg/security/selinux"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/security/apparmor"
+	"github.com/RyaxTech/singularity/internal/pkg/security/seccomp"
+	"github.com/RyaxTech/singularity/internal/pkg/security/selinux"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

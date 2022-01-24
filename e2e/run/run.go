@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/e2e/internal/e2e"
-	"github.com/hpcng/singularity/e2e/internal/testhelper"
-	"github.com/hpcng/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/e2e/internal/e2e"
+	"github.com/RyaxTech/singularity/e2e/internal/testhelper"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
 )
 
 type ctx struct {

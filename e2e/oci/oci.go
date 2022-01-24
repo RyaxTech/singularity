@@ -12,12 +12,12 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/RyaxTech/singularity/e2e/internal/e2e"
+	"github.com/RyaxTech/singularity/e2e/internal/testhelper"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci"
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/require"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
 	"github.com/google/uuid"
-	"github.com/hpcng/singularity/e2e/internal/e2e"
-	"github.com/hpcng/singularity/e2e/internal/testhelper"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci"
-	"github.com/hpcng/singularity/internal/pkg/test/tool/require"
-	"github.com/hpcng/singularity/pkg/ociruntime"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 )

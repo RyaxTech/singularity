@@ -12,8 +12,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hpcng/singularity/internal/pkg/cgroups"
-	"github.com/hpcng/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/internal/pkg/cgroups"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

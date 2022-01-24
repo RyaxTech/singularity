@@ -15,8 +15,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // gpuliblist returns libraries/binaries listed in a gpu lib list config file, typically

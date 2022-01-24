@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci/generate"
-	"github.com/hpcng/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci/generate"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
 )
 
 func TestSetContainerEnv(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"net/rpc"
 	"os"
 
-	args "github.com/hpcng/singularity/internal/pkg/runtime/engine/singularity/rpc"
-	"github.com/hpcng/singularity/pkg/util/loop"
+	args "github.com/RyaxTech/singularity/internal/pkg/runtime/engine/singularity/rpc"
+	"github.com/RyaxTech/singularity/pkg/util/loop"
 )
 
 // RPC holds the state necessary for remote procedure calls.

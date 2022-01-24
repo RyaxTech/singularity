@@ -17,11 +17,11 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/security/seccomp"
+	"github.com/RyaxTech/singularity/pkg/network"
+	"github.com/RyaxTech/singularity/pkg/util/fs/proc"
 	"github.com/containerd/cgroups"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/security/seccomp"
-	"github.com/hpcng/singularity/pkg/network"
-	"github.com/hpcng/singularity/pkg/util/fs/proc"
 )
 
 var (

@@ -17,12 +17,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/build/types/parser"
-	"github.com/hpcng/singularity/pkg/image"
-	"github.com/hpcng/singularity/pkg/inspect"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/build/types/parser"
+	"github.com/RyaxTech/singularity/pkg/image"
+	"github.com/RyaxTech/singularity/pkg/inspect"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 func (s *stage) insertMetadata() error {

@@ -10,7 +10,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/hpcng/singularity/internal/pkg/remote"
+	"github.com/RyaxTech/singularity/internal/pkg/remote"
 )
 
 // RemoteRemove deletes a remote endpoint from the configuration

@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hpcng/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/build/types"
 )
 
 var (

@@ -8,8 +8,8 @@ package env
 import (
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci/generate"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci/generate"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 const (

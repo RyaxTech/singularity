@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
 	"golang.org/x/sys/unix"
 )
 

@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/exec"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 	"github.com/buger/jsonparser"
-	"github.com/hpcng/singularity/internal/pkg/test/tool/exec"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
 )
 
 // ImageVerify checks for an image integrity.

@@ -16,9 +16,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/syfs"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/syfs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 var errInvalidCacheType = errors.New("invalid cache type")

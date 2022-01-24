@@ -9,10 +9,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hpcng/singularity/internal/pkg/instance"
-	"github.com/hpcng/singularity/internal/pkg/util/exec"
-	"github.com/hpcng/singularity/pkg/ociruntime"
-	"github.com/hpcng/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/internal/pkg/instance"
+	"github.com/RyaxTech/singularity/internal/pkg/util/exec"
+	"github.com/RyaxTech/singularity/pkg/ociruntime"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 )
 
 // OciDelete deletes container resources

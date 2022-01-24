@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/image/unpacker"
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/internal/pkg/image/unpacker"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
 
 	imageSpecs "github.com/opencontainers/image-spec/specs-go/v1"
 )

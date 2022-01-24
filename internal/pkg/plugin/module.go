@@ -13,10 +13,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/internal/pkg/util/bin"
+	"github.com/RyaxTech/singularity/pkg/sylog"
 	"github.com/blang/semver/v4"
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/internal/pkg/util/bin"
-	"github.com/hpcng/singularity/pkg/sylog"
 )
 
 // SingularitySource represents the symlink name which will

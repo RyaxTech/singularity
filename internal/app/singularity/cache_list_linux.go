@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/util/slice"
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/util/slice"
 )
 
 // listTypeCache will list a cache type with given name (cacheType). The options are 'library', and 'oci'.

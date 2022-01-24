@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/pkg/build/types"
 )
 
 func TestScanDefinitionFile(t *testing.T) {

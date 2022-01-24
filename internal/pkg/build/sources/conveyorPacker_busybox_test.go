@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hpcng/singularity/internal/pkg/build/sources"
-	"github.com/hpcng/singularity/internal/pkg/test"
-	"github.com/hpcng/singularity/internal/pkg/test/tool/require"
-	"github.com/hpcng/singularity/pkg/build/types"
-	"github.com/hpcng/singularity/pkg/build/types/parser"
+	"github.com/RyaxTech/singularity/internal/pkg/build/sources"
+	"github.com/RyaxTech/singularity/internal/pkg/test"
+	"github.com/RyaxTech/singularity/internal/pkg/test/tool/require"
+	"github.com/RyaxTech/singularity/pkg/build/types"
+	"github.com/RyaxTech/singularity/pkg/build/types/parser"
 )
 
 const busyBoxDef = "../../../../examples/busybox/Singularity"

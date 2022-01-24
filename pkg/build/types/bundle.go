@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/RyaxTech/singularity/internal/pkg/cache"
+	"github.com/RyaxTech/singularity/internal/pkg/util/fs"
+	"github.com/RyaxTech/singularity/pkg/sylog"
+	"github.com/RyaxTech/singularity/pkg/util/cryptkey"
 	ocitypes "github.com/containers/image/v5/types"
-	"github.com/hpcng/singularity/internal/pkg/cache"
-	"github.com/hpcng/singularity/internal/pkg/util/fs"
-	"github.com/hpcng/singularity/pkg/sylog"
-	"github.com/hpcng/singularity/pkg/util/cryptkey"
 	scskeyclient "github.com/sylabs/scs-key-client/client"
 	"golang.org/x/sys/unix"
 )

@@ -8,8 +8,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/hpcng/singularity/internal/pkg/buildcfg"
-	"github.com/hpcng/singularity/pkg/cmdline"
+	"github.com/RyaxTech/singularity/internal/pkg/buildcfg"
+	"github.com/RyaxTech/singularity/pkg/cmdline"
 	"github.com/spf13/cobra"
 )
 

@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/RyaxTech/singularity/internal/pkg/runtime/engine/config/oci/generate"
+	"github.com/RyaxTech/singularity/internal/pkg/security/seccomp"
 	"github.com/containerd/cgroups"
-	"github.com/hpcng/singularity/internal/pkg/runtime/engine/config/oci/generate"
-	"github.com/hpcng/singularity/internal/pkg/security/seccomp"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	cseccomp "github.com/seccomp/containers-golang"
 )
